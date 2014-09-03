@@ -1,10 +1,13 @@
-### A CodeIgniter skeleton application based on twitter bootstrap and html5boilerplate.
+### A CodeIgniter skeleton application based on twitter bootstrap and html5boilerplate, angularJS, IonAuth.
 ---------------------------------------------------
 
-	VERSION 1.1.3
+	VERSION 0.9.0
+Based on 
 
 * Codeigniter 2.1.4
 * bootstrap 3.0RC1
+* AngularJS
+* Ion-Auth
 * html5boilerplate 4.0.0
 * unique style css contains all bootstrap css (responsive and basic), and global css for custom styles.
 * unique plugin js contains all bootstrap plugins.
@@ -33,10 +36,13 @@ Send a pull request, or contact me.
 
 ## Author
 
-####Alessandro Arnodo
+####Fabio Codebue
 
-+	[@vesparny](https://twitter.com/vesparny)
++	[@fcodebue](https://twitter.com/fcodebue)
 
-+	[http://alessandro.arnodo.net](http://alessandro.arnodo.net)
++	[http://www.p-soft.biz](http://p-soft.biz)
 
-+	<mailto:alessandro@arnodo.net>
++	<mailto:f.codebue@p-soft.biz>
+
+Based on Alessandro Arnodo framework 
+
