@@ -1,0 +1,2 @@
+//generale_app.js
+

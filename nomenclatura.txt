@@ -1,0 +1,9 @@
+Nomenclatura:
+
+argomento
+	Model --> m_argomento.php
+	Controller --> c_argomento.php
+	View --> Cartella argomento--> v_argomento.php
+
+	datatables js
+	resources -> js -> classes -> nomedelcontroller + nomeDelMetodoDaCuiVieneChiamato + .js

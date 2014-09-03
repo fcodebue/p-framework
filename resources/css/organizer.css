@@ -1,0 +1,261 @@
+.organizerContainer {
+    min-height: 11800px;
+    margin-top: 5px;
+    font-size: 10px;
+}
+
+.organizerContainer .page-header {
+    padding-bottom: 0;
+    margin: 30px 0 12px;
+}
+
+.organizerContainer, .organizerContainer .btn-sm, .organizerContainer .panel, .organizerContainer .panel-title, .organizerContainer .pagination, .organizerContainer .dataTables_info,
+.organizerContainer .text, .organizerContainer .btn, .organizerContainer .form-control {
+    font-size: 10px;
+}
+
+.organizerContainer .col-md-3, .organizerContainer .col-md-9, .organizerContainer .col-md-2, .organizerContainer .col-md-10 {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.organizerContainer .media-object {
+    width: 40px;
+    text-align: center;
+}
+
+.panel-heading {
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.spacer {
+    margin-top: 10px;
+}
+
+.messageHolder {
+    color: green;
+    position: fixed;
+    z-index: 2000000000;
+    left: 150px;
+    top: 10px;
+}
+
+.spinner {
+    position: fixed;
+    z-index: 2000000000;
+    left: 50%;
+    top: 35px;
+}
+
+.dataTables_filter {
+    display: none;
+}
+
+.col-xs-6 > .dataTables_paginate {
+    margin: 5px;
+}
+
+.col-xs-6 > .dataTables_info {
+    margin: 5px;
+}
+
+.addressBooks .panel-body {
+    padding: 5px;
+}
+
+.addressBooks .panel-heading > in {
+    background-color: #000;
+}
+
+.modal.contact .modal-dialog, .modal.event .modal-dialog {
+    width: 90%;
+    min-height: 500px;
+}
+
+.modal.contact .form-group {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.modal.contact .row-icon {
+    padding-top: 15px;
+}
+
+.input-group-xs > .form-control, .input-group-xs > .input-group-addon, .input-group-xs > .input-group-btn > .btn {
+    height: 30px;
+    padding: 1px 5px;
+    font-size: 10px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+select.input-group-xs > .form-control, select.input-group-xs > .input-group-addon, select.input-group-xs > .input-group-btn > .btn {
+    height: 30px;
+    line-height: 30px;
+}
+
+textarea.input-group-xs > .form-control, textarea.input-group-xs > .input-group-addon, textarea.input-group-xs > .input-group-btn > .btn, select[multiple].input-group-xs > .form-control, select[multiple].input-group-xs > .input-group-addon, select[multiple].input-group-xs > .input-group-btn > .btn {
+    height: auto;
+}
+
+.input-xs {
+    height: 19px;
+}
+
+.input-sm {
+    height: 27px;
+}
+
+.labelCategory {
+    background-color: #262626;
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+    margin: 5px;
+}
+
+table.dataTable td.verticalCentered {
+    vertical-align: middle;
+    padding-bottom: 12px;
+}
+
+table.dataTable .checkbox {
+    margin-top: 15px;
+}
+
+.pagefade {
+    opacity: 0;
+    -webkit-transition: opacity 0.25s ease-in;
+    -moz-transition: opacity 0.25s ease-in;
+    -o-transition: opacity 0.25s ease-in;
+    -ms-transition: opacity 0.25s ease-in;
+    transition: opacity 0.25s ease-in;
+}
+
+.pagefade.in {
+    opacity: 1;
+}
+
+.loading.pagefade {
+    position: fixed;
+    z-index: 2000000000;
+    left: 50%;
+    top: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    opacity: 1;
+}
+
+.pagefade.out {
+    opacity: 0;
+}
+
+.pagefade .spinner {
+    z-index: 2000000000;
+    -moz-transition: none;
+    -webkit-transition: none;
+    transition: none;
+    -o-transition: none;
+    -ms-transition: none;
+}
+
+.ng-move,
+.ng-enter,
+.ng-leave {
+    -webkit-transition: all linear 0.5s;
+    -moz-transition: all linear 0.5s;
+    -o-transition: all linear 0.5s;
+    -ms-transition: all linear 0.5s;
+    transition: all linear 0.5s;
+}
+
+.ng-leave.ng-leave-active,
+.ng-move,
+.ng-enter {
+    opacity: 0;
+    max-height: 0;
+}
+
+.ng-leave,
+.ng-move.ng-move-active,
+.ng-enter.ng-enter-active {
+    opacity: 1;
+    max-height: 40px;
+}
+
+.organizerContainer .no-anim .ng-leave,
+.ng-move.ng-move-active,
+.ng-enter.ng-enter-active {
+    -moz-transition: none;
+    -webkit-transition: none;
+    transition: none;
+    -o-transition: none;
+    -ms-transition: none;
+}
+
+.organizerContainer .cal-left .btn-sm {
+    padding: 2px 10px;
+    border-color: transparent;
+    border: none;
+    line-height: inherit;
+}
+
+.organizerContainer .cal-right .fc-header-title h2 {
+    font-size: inherit;
+}
+
+.organizerContainer .cal-right .fc-button {
+    border: none;
+    background: none;
+}
+
+.organizerContainer .cal-right .panel-body {
+    padding: 0px;
+}
+
+.organizerContainer .cal-right .btn.cal-view {
+    border-radius: 0px;
+    margin-right: -1px;
+    margin-top: -22px;
+}
+
+.organizerContainer .fc-header {
+    margin-top: 10px;
+}
+
+.organizerContainer .line-through {
+    text-decoration: line-through;
+    color: #DDD;
+}
+
+.organizerContainer .calendarColor {
+    width: 22px;
+    height: 12px;
+    display: inline-block;
+    vertical-align: inherit;
+    border-width: 2px;
+    border-color: #fff;
+    border-style: solid;
+}
+
+.organizerContainer .modal-header .close {
+    margin-top: 0px;
+}
+
+/*.organizerContainer .cal-right .fc-border-separate tbody tr.fc-first td,*/
+/*.organizerContainer .cal-right .fc-border-separate tbody tr.fc-first th {*/
+/*border-left-width: 0;*/
+/*}*/
+
+/*.organizerContainer .cal-right .fc-border-separate tbody tr.fc-last td {*/
+/*border-right-width: 0;*/
+/*}*/
+
